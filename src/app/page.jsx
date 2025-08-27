@@ -102,7 +102,7 @@ export default function Page() {
                 <IoClose className="text-3xl" />
               </button>
             </div>
-            <div className="p-6 flex flex-col gap-4">
+            <div className="p-6 flex flex-col gap-4 bg-white">
               {navItems.map((item) => (
                 <a key={item.href} href={item.href} onClick={() => setOpen(false)} className="text-lg font-medium">
                   {item.label}
